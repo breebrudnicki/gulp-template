@@ -3,6 +3,11 @@
 This workflow includes a `package.json` as well as a `gulpfile.js`. The `gulpfile.js` includes the following dependencies:
 * gulp
 * SASS
+* autoprefixer
+* concat
+* cssnano
+* sourcemaps
+* gulp-util
 
 ### File Structure
 This gulp template expects the following file structure:
