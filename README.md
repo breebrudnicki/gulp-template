@@ -6,10 +6,10 @@ This workflow includes a `package.json` as well as a `gulpfile.js`. The `gulpfil
 * Autoprefixer
 * Concat
 * Cssnano
-* Sourcemaps
 * gulp-util
 * Uglify
 * Image Minifier
+* Cache
 
 ### File Structure
 This gulp template expects the following file structure:
@@ -20,7 +20,7 @@ dist/
   |  |- js/
   |  |- css/
   |  |- images/
-  |  |- index.html
+  |- index.html
 source/
   |- js/
   |- css/

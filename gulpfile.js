@@ -9,7 +9,7 @@ var autoprefixer = require('gulp-autoprefixer');
 var gutil      = require('gulp-util');
 var uglify     = require('gulp-uglify');
 var imagemin   = require('gulp-imagemin');
-var cache = require('gulp-cache');
+var cache      = require('gulp-cache');
 
 // Gulp Tasks
 gulp.task('build-css', function () {
@@ -48,6 +48,7 @@ gulp.task('images', function(){
     })))
   .pipe(gulp.dest('./dist/assets/images'))
 });
+
 
 //Gulp Watch - set as the default
 gulp.task('default', function () {
