@@ -41,9 +41,12 @@ node-modules/
 ### Using This Template
 
 #### Getting Setup
-clone this repository
+Clone this repository
+
 `git clone https://github.com/breecarrick/gulp-template.git`
+
 NPM install all dependencies within your project directory
+
 `npm install`
 
 #### Altering The Template to Fit Your Project
