@@ -11,6 +11,12 @@ This workflow includes a `package.json` as well as a `gulpfile.js`. The `gulpfil
 * Image Minifier
 * Cache
 
+### Builds
+* Compiles, autoprefixes and minimizes your Scss (can easily switch to Sass or LESS)
+* Uglifys and concatenates your JS
+* Compresses your Images
+* Moves all html files to the dist folder
+
 ### File Structure
 This gulp template expects the following file structure:
 
@@ -35,5 +41,10 @@ node-modules/
 ### Using This Template
 
 #### Getting Setup
+clone this repository
+`git clone https://github.com/breecarrick/gulp-template.git`
+NPM install all dependencies within your project directory
+`npm install`
 
 #### Altering The Template to Fit Your Project
+Change the name and description in the package.json. Either follow the file structure suggested or change the file paths within the package.json files.
