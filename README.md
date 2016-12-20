@@ -49,5 +49,26 @@ NPM install all dependencies within your project directory
 
 `npm install`
 
+#### Running Tasks
+To run all tasks on save run gulp
+
+`gulp`
+
+To build sass
+
+`build-css`
+
+to build javascript
+
+`build-js`
+
+the compress images
+
+`images`
+
+to move html files
+
+`copyHtml`
+
 #### Altering The Template to Fit Your Project
 Change the name and description in the package.json. Either follow the file structure suggested or change the file paths within the package.json files.
